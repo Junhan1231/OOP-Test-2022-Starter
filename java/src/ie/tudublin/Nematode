@@ -1,0 +1,56 @@
+package ie.tudublin;
+
+import processing.data.TableRow;
+
+public class Nematode {
+    private String Name;
+    private int length;
+    private boolean limbs;
+    private char gender;
+    private boolean eyes;
+
+    public Nematode(String Name, int length, boolean limbs, char gender, boolean eyes){
+
+        this.Name = Name;
+        this.length = length;
+        this.limbs = limbs;
+        this.gender = gender;
+        this.eyes = eyes;
+
+    }
+
+    public Nematode(TableRow tableRow){
+
+    }
+
+    public String getName(){
+        return Name;
+    }
+
+    public int getlength(){
+        return length;
+    }
+
+    public boolean islimbs(){
+        return limbs;
+    }
+
+    public char getgender(){
+        return gender;
+    }
+    
+    public boolean iseyes(){
+        return eyes;
+    }
+
+
+
+
+
+    
+
+
+
+
+}
+    
